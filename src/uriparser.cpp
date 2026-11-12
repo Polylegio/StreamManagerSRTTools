@@ -43,6 +43,7 @@ struct UriParserInit
         types["tudp"] = UriParser::TUDP;
         types["zixi"] = UriParser::ZIXI;
         types["analyzer"] = UriParser::ANALYZER;
+        types["webrtc"] = UriParser::WEBRTC;
         types[""] = UriParser::UNKNOWN;
     }
 } g_uriparser_init;

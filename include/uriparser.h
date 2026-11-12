@@ -74,7 +74,7 @@ public:
     enum DefaultExpect { EXPECT_FILE, EXPECT_HOST };
     enum Type
     {
-        UNKNOWN, FILE, UDP, TCP, SRT, RTMP, HTTP, RTP, RIST, HTTPS, RELAY, NDI, TUDP, ZIXI, ANALYZER
+        UNKNOWN, FILE, UDP, TCP, SRT, RTMP, HTTP, RTP, RIST, HTTPS, RELAY, NDI, TUDP, ZIXI, ANALYZER, WEBRTC
     };
 
     UriParser(const std::string& strUrl, DefaultExpect exp = EXPECT_FILE);
